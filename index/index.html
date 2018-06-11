@@ -1,0 +1,85 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>主界面</title>
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <script src="../vue.js"></script>
+    <script src="../vue_route.js"></script>
+    <script src="../assets/js/amazeui.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/amazeui.min.js"></script>
+    <!-- Amaze UI CSS -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/amazeui.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/amazeui.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/amazeui.flat.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div id="div-1" class="am-g">
+    <div id="header" class="am-header">
+        <div class="herder-text">
+            <img src="../img/Logo.png" style="margin-top: 0px; margin-right: 20px; width: 115px; height: 115px"/>
+            <header data-am-widget="header">
+                <text class="herder-title">猫萌萌病虫害防治</text>
+            </header>
+        </div>
+        <div class="herder-second" id="herderLabel">
+            <img src="../img/cat.jpg" class="herder-cat"/>
+            <label style="font-family: STLiti; font-size: 20px; letter-spacing: 5px; margin-left: 10px; margin-top: 25px">猫萌萌</label>
+            <label class="herder-label1" @click="label1Click">收藏夹</label>
+            <label class="herder-label1" @click="label1Click">浏览历史</label>
+        </div>
+    </div>
+    <div class="pages">
+        <div class="second">
+            <label class="label1">分类</label>
+            <label class="label1">赞助</label>
+            <div class="am-input-group search">
+                <input type="text" class="am-form-field" style="height: 40px;width: 320px;color: black;">
+                <button class="am-btn am-btn-default" type="button" style="height: 40px;"><span class="am-icon-search"></span> </button>
+            </div>
+        </div>
+        <div class="third">
+            <div class="third-img-div">
+                <div id="mySlider" data-am-widget="slider" class="am-slider am-slider-c3" style="width: 100%; height: 400px"
+                     data-am-slider='{&quot;controlNav&quot;:false}' data-am-flexslider="{playAfterPaused: 4000}">
+                    <ul class="am-slides">
+                        <li v-for="(item,index) in silder">
+                            <img @click="clickSilder(item.id)" :src="item.url" class="am-img-thumbnail">
+                            <div class="am-slider-desc" style="width: 150px;"><div class="am-slider-counter"><span class="am-active">{{index+1}}</span>/{{silder_total}}</div>{{item.description}}</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="forth" id="forth">
+            <div class="forth-buttons">
+                <button @click="forthButClick(1)" class="forth-button1" :style="{background:but1Style}">热门资料</button>
+                <button @click="forthButClick(2)" class="forth-button1" :style="{background:but2Style}">最新资料</button>
+            </div>
+            <div class="forth-page">
+                <div class="forth-page-item" v-for="(item,index) in showItem">
+                    <img class="forth-page-img" :src="item.img"/>
+                    <div class="forth-page-text">
+                        <span class="forth-page-text-1">{{item.name}}<span class="forth-page-text-1-en">({{item.englishName}})</span></span>
+                        <span class="forth-page-text-2">{{item.desc}}</span>
+                        <button class="forth-page-but" @click="clickForItem(item.id)">详细资料</button>
+                        <div style="border: 1px solid #c8c5c5; margin-top: 3px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-div">
+        <img src="../img/bottom.jpg" />
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

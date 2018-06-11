@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue 入门</title>
+    <script src="./vue.js"></script>
+</head>
+<body>
+   <div id="app">
+       <input v-model="inputValue" />
+       <button @click="handleSubmit">提交</button>
+       <ul>
+           <todo-item v-for="(item, index) in list"
+                      :key="index"
+                      :content="item"
+                      :index="index"
+                      @delete="handleDelete"
+           ></todo-item>
+       </ul>
+       <app></app>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

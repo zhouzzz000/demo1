@@ -1,0 +1,192 @@
+body{
+    font-family: SimSuncss;
+}
+
+#div-1{
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    width: 1920px;
+    height: 160px;
+    display: flex;
+    background: url("../img/title.jpg");
+    justify-content: center;
+    align-items: center
+}
+
+.herder-text{
+    width: 810px;
+    display: flex;
+}
+
+.herder-title{
+    display: flex;
+    font-family: STLiti;
+    font-size: 68px;
+    color: black;
+    letter-spacing: 15px;
+    margin-top: 40px;
+}
+
+.herder-cat{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.herder-second{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: -85px;
+}
+
+.herder-label1{
+    margin-left: 50px;
+    font-family: SimSuncss;
+    margin-top: 25px;
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1384px;
+    /*border:3px solid red;*/
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    vertical-align: middle;
+}
+
+.label1{
+    font-family: SimSuncss;
+    display: flex;
+    margin-left: 74px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25px;
+}
+
+.search{
+    font-family: SimSuncss;
+    /*margin-left: 700px;*/
+    margin-left: 695px;
+}
+
+.third{
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+    /*border: 3px solid blue;*/
+}
+
+.third-img-div{
+    margin: 0 auto;
+    /*border: 2px solid black;*/
+    width: 1240px;
+    height: 400px;
+    font-family: SimSuncss;
+
+}
+
+.am-silder li {
+    height: 100px; /* n 为轮播图数量 */
+}
+
+.forth{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1240px;
+    /*border: 3px solid red;*/
+    /*border: 3px solid blue;*/
+}
+
+.forth-buttons{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.forth-button1{
+    width: 137px;
+    height: 34px;
+    border: none;
+    font-size: 17px;
+    outline: none;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background: #dddddd;
+}
+
+.forth-page{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+.forth-page-item{
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid red;*/
+    height: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.forth-page-img{
+    display: flex;
+    width: 233px;
+    height: 109px;
+    margin-left: 20px;
+}
+
+.forth-page-text{
+    display: flex;
+    flex-direction: column;
+    font-family: STLiti;
+}
+
+.forth-page-text-1{
+    display: flex;
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-left: 19px;
+    margin-top: 10px;
+    color: black;
+}
+
+.forth-page-text-1-en{
+    letter-spacing: 2px;
+}
+
+.forth-page-text-2{
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-left: 19px;
+}
+
+.forth-page-but{
+    display: flex;
+    height: 23px;
+    width: 105px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-left: 880px;
+}
+
+.bottom-div{
+    display: flex;
+    margin-top: 50px;
+}

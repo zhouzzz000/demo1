@@ -1,0 +1,104 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>主界面</title>
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <script src="../vue.js"></script>
+    <script src="../vue_route.js"></script>
+    <script src="../assets/js/amazeui.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/amazeui.min.js"></script>
+    <script src="../util/util.js"></script>
+    <!-- Amaze UI CSS -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/amazeui.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/amazeui.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/amazeui.flat.css">
+    <link rel="stylesheet" type="text/css" href="../index/index.css">
+    <link rel="stylesheet" type="text/css" href="item.css">
+</head>
+<body>
+<div id="div-1" class="am-g">
+    <div id="header" class="am-header">
+        <div class="herder-text">
+            <img src="../img/Logo.png" style="margin-top: 0px; margin-right: 20px; width: 115px; height: 115px"/>
+            <header data-am-widget="header">
+                <span class="herder-title">猫萌萌病虫害防治</span>
+            </header>
+        </div>
+        <div class="herder-second" id="herderLabel">
+            <img src="../img/cat.jpg" class="herder-cat"/>
+            <label style="font-family: STLiti; font-size: 20px; letter-spacing: 5px; margin-left: 10px; margin-top: 25px">猫萌萌</label>
+            <label class="herder-label1" @click="label1Click">收藏夹</label>
+            <label class="herder-label1" @click="label1Click">浏览历史</label>
+        </div>
+    </div>
+    <div class="pages">
+        <div class="second">
+            <label class="label1">分类</label>
+            <label class="label1">赞助</label>
+            <div class="am-input-group search">
+                <input type="text" class="am-form-field" style="width: 320px;color: black;">
+                <button class="am-btn am-btn-default" type="button"><span class="am-icon-search"></span> </button>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------------>
+    <div class="third">
+        <div class="third-pages">
+            <span class="third-title">{{itemInfo.name}}<span>({{itemInfo.belong}})</span></span>
+            <span class="third-desc">        {{itemInfo.desc}}</span>
+            <div class="third-desc-1">
+                <div class="third-desc-1-header">
+                    <div class="third-desc-1-header-line"></div>形态特征<span></span><div class="third-desc-1-header-line"></div>
+                </div>
+                <span class="third-desc">        {{itemInfo.feature}}</span>
+            </div>
+            <div class="third-desc-1">
+                <div class="third-desc-1-header">
+                    <div class="third-desc-1-header-line"></div>生长习性<span></span><div class="third-desc-1-header-line"></div>
+                </div>
+                <span class="third-desc">        {{itemInfo.growth}}</span>
+            </div>
+            <div class="third-desc-1">
+                <div class="third-desc-1-header">
+                    <div class="third-desc-1-header-line"></div>病虫防治<span></span><div class="third-desc-1-header-line"></div>
+                </div>
+                <span class="third-desc">        {{itemInfo.disease}}</span>
+            </div>
+        </div>
+        <div class="third-2">
+            <img class="third-2-cat" src="../img/cat.jpg" />
+            <textarea v-model="newComment" placeholder="请自觉遵守互联网相关的政策法规，严禁发布色情、暴力、反动的言论。" class="third-2-text"></textarea>
+            <button @click="clickForComment" class="third-2-but">发表评论</button>
+        </div>
+        <div class="third-3">
+            <div v-for="(item,index) in comments" class="third-3-comment">
+                <div class="third-3-line"></div>
+                <div class="third-3-cont">
+                    <img class="third-3-cont-img" :src="item.avator" />
+                    <div class="third-3-cont-text">
+                        <span class="third-3-cont-text-1">{{item.name}}</span>
+                        <span class="third-3-cont-text-2">{{item.text}}</span>
+                        <div class="third-3-cont-text-div">
+                            <span class="third-3-cont-text-3">#{{index+1}}</span>
+                            <span class="third-3-cont-text-4">{{item.time}}</span>
+                            <button class="third-3-cont-text-5">回复</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-div">
+        <img src="../img/bottom.jpg" />
+    </div>
+</div>
+<script src="item.js"></script>
+</body>
+</html>
