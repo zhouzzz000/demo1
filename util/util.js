@@ -3,6 +3,7 @@ var items = [
         id:6,
         name:'榕树',
         belong:'桑科榕属乔木',
+        item_images:['./img/rongshu1.jpg','./img/rongshu2.jpg','./img/rongshu3.jpg'],
         desc:'榕树（学名：Ficus microcarpa Linn. f. ）：大乔木，高达15-25米，' +
                 '胸径达50厘米，冠幅广展；老树常有锈褐色气根。树皮深灰色。叶薄革质，狭椭' +
                 '圆形，表面深绿色，有光泽，全缘。榕果成对腋生或生于已落叶枝叶腋，成熟时' +
@@ -123,6 +124,8 @@ var items = [
     },
 ];
 
+const curAvator = '../img/cat.jpg';
+
 var comments = [
     {
         id:1,
@@ -133,14 +136,14 @@ var comments = [
     },
     {
         id:2,
-        avator:'../img/avator2.jpg',
+        avator:'../img/avator5.jpg',
         name:'KAI(SO4)2·12H20',
         text:'杨家有女初长成，养在深闺人不知',
         time:'2018-06-10 15:00',
     },
     {
         id:3,
-        avator:'../img/avator3.jpg',
+        avator:'../img/avator4.jpg',
         name:'啷里格啷',
         text:'天生丽质难自弃，一朝选在君王侧',
         time:'2018-06-10 15:00',

@@ -1,5 +1,8 @@
 new Vue({
     el:'#herderLabel',
+    data:{
+        curAvator:curAvator,
+    },
     methods:{
         label1Click:function (e) {
             alert(e.target.innerText);

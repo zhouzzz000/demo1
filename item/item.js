@@ -9,7 +9,8 @@ new Vue({
     data:{
         itemInfo:'',
         comments:'',
-        newComment:''
+        newComment:'',
+        curAvator:curAvator,
     },
     methods:{
         label1Click:function () {

@@ -14,6 +14,7 @@
     <script src="../assets/js/amazeui.js"></script>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/amazeui.min.js"></script>
+    <script src="../util/util.js"></script>
     <!-- Amaze UI CSS -->
     <link rel="stylesheet" type="text/css" href="../assets/css/amazeui.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/amazeui.min.css">
@@ -30,7 +31,7 @@
             </header>
         </div>
         <div class="herder-second" id="herderLabel">
-            <img src="../img/cat.jpg" class="herder-cat"/>
+            <img :src="curAvator" class="herder-cat"/>
             <label style="font-family: STLiti; font-size: 20px; letter-spacing: 5px; margin-left: 10px; margin-top: 25px">猫萌萌</label>
             <label class="herder-label1" @click="label1Click">收藏夹</label>
             <label class="herder-label1" @click="label1Click">浏览历史</label>
@@ -39,7 +40,18 @@
     <div class="pages">
         <div class="second">
             <label class="label1">分类</label>
-            <label class="label1">赞助</label>
+            <label class="label1" data-am-modal="{target:'#doc-modal-1',closeViaDimmer:0,width:400,height:400}">赞助</label>
+            <!-- 触发 button -->
+            <div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-1">
+                <div class="am-modal-dialog">
+                    <div class="am-modal-hd">赞助
+                        <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+                    </div>
+                    <div class="am-modal-bd">
+                        <img src="../img/erweicode.jpg" />
+                    </div>
+                </div>
+            </div>
             <div class="am-input-group search">
                 <input type="text" class="am-form-field" style="height: 40px;width: 320px;color: black;">
                 <button class="am-btn am-btn-default" type="button" style="height: 40px;"><span class="am-icon-search"></span> </button>
@@ -65,7 +77,7 @@
             </div>
             <div class="forth-page">
                 <div class="forth-page-item" v-for="(item,index) in showItem">
-                    <img class="forth-page-img" :src="item.img"/>
+                    <img @click="clickForItem(item.id)" class="forth-page-img" :src="item.img"/>
                     <div class="forth-page-text">
                         <span class="forth-page-text-1">{{item.name}}<span class="forth-page-text-1-en">({{item.englishName}})</span></span>
                         <span class="forth-page-text-2">{{item.desc}}</span>
