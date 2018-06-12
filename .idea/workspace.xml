@@ -1,14 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/index/index.html" line="89" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3fdaa953-e6a0-4df9-b5fe-068b74cd8abe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/classify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/img/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/guihuashu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/liulianshu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/liushu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/songshu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/img/zhuzi1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/avator4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/avator4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/classify.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/item/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item/item.css" beforeDir="false" afterPath="$PROJECT_DIR$/item/item.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/item/item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/util.js" afterDir="false" />
     </list>
@@ -24,54 +59,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="avator3.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/avator3.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="456">
+              <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+            <state relative-caret-position="322">
+              <caret line="27" column="138" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="138" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2368#2375#1" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="avator4.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/avator4.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="avator5.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/avator5.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="avator1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/avator1.jpg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="12" selection-end-line="159" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/item/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+            <state relative-caret-position="152">
+              <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -81,20 +124,67 @@
       <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="149" column="5" lean-forward="true" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
+            <state relative-caret-position="266">
+              <caret line="255" column="6" selection-start-line="255" selection-start-column="6" selection-end-line="255" selection-end-column="6" />
+              <folding>
+                <element signature="e#15#6640#0" />
+                <element signature="e#10661#12139#0" />
+                <element signature="e#13198#14351#0" />
+                <element signature="e#15892#17249#0" />
+                <element signature="e#17255#18997#0" />
+                <element signature="e#15012#16436#0" />
+                <element signature="e#15394#16441#0" />
+                <element signature="e#14908#16436#0" />
+                <element signature="e#19055#19518#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rongshu1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item/img/rongshu1.jpg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="classify.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/classify.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="27" column="138" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="138" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2368#2375#1" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="rongshu2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item/img/rongshu2.jpg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="classify.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/classify.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/item/item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/item/item.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7714">
+              <caret line="203" column="24" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -122,20 +212,26 @@
         <option value="$PROJECT_DIR$/app.vue" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ddd1.html" />
-        <option value="$PROJECT_DIR$/index/index1.html" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/index/img/index.html" />
         <option value="$PROJECT_DIR$/item/item.html" />
         <option value="$PROJECT_DIR$/v.js" />
         <option value="$PROJECT_DIR$/vue_route.js" />
-        <option value="$PROJECT_DIR$/index/index.css" />
         <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/item/item.css" />
-        <option value="$PROJECT_DIR$/index/index.html" />
+        <option value="$USER_HOME$/Documents/Tencent Files/1025713522/FileRecv/img/util(2).js" />
         <option value="$PROJECT_DIR$/index/index.js" />
         <option value="$PROJECT_DIR$/item/item.js" />
-        <option value="$PROJECT_DIR$/item/index.html" />
+        <option value="$PROJECT_DIR$/index/img/fenlei.js" />
+        <option value="$PROJECT_DIR$/index/fenlei.html" />
+        <option value="$PROJECT_DIR$/index/fenlei.js" />
+        <option value="$PROJECT_DIR$/index/index1.html" />
+        <option value="$PROJECT_DIR$/index/classify.js" />
+        <option value="$PROJECT_DIR$/index/index.css" />
         <option value="$PROJECT_DIR$/util/util.js" />
+        <option value="$PROJECT_DIR$/index/index.html" />
+        <option value="$PROJECT_DIR$/index/classify.html" />
+        <option value="$PROJECT_DIR$/item/index.html" />
       </list>
     </option>
   </component>
@@ -155,16 +251,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-57" />
-    <option name="y" value="33" />
+    <option name="x" value="-147" />
+    <option name="y" value="4" />
     <option name="width" value="1940" />
-    <option name="height" value="1081" />
+    <option name="height" value="1070" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,19 +287,12 @@
             <path>
               <item name="demo1" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo1" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,17 +306,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhouzzz\Desktop\demo1\index" />
       <recent name="C:\Users\zhouzzz\Desktop\demo1\item\img" />
       <recent name="C:\Users\zhouzzz\Desktop\demo1\img" />
-      <recent name="C:\Users\zhouzzz\Desktop\demo1\index" />
       <recent name="C:\Users\zhouzzz\Desktop\demo1\item" />
       <recent name="C:\Users\zhouzzz\Desktop\demo1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zhouzzz\Desktop\demo1\img" />
-      <recent name="C:\Users\zhouzzz\Desktop\demo1\item\img" />
-      <recent name="C:\Users\zhouzzz\Desktop\demo1\util" />
       <recent name="C:\Users\zhouzzz\Desktop\demo1\index\img" />
+      <recent name="C:\Users\zhouzzz\Desktop\demo1\item\img" />
+      <recent name="C:\Users\zhouzzz\Desktop\demo1\img" />
+      <recent name="C:\Users\zhouzzz\Desktop\demo1\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,28 +332,28 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="classify.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo1/index/classify.html" />
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo1/index/index.html" />
     <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo1/item/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/demo1/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo1/index/index.html" />
-    <configuration name="item.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo1/item/item.html" />
-    <configuration name="search.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo1/search.html" />
-    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/index" />
+    <configuration name="item.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="item.js" working-dir="$PROJECT_DIR$/item" />
+    <configuration name="util.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="util.js" working-dir="$PROJECT_DIR$/util" />
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
-      <item itemvalue="JavaScript Debug.item.html" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
-      <item itemvalue="JavaScript Debug.search.html" />
-      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="Node.js.item.js" />
+      <item itemvalue="JavaScript Debug.classify.html" />
+      <item itemvalue="Node.js.util.js" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="Node.js.index.js" />
-        <item itemvalue="JavaScript Debug.search.html" />
+        <item itemvalue="Node.js.util.js" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.item.html" />
+        <item itemvalue="JavaScript Debug.classify.html" />
+        <item itemvalue="Node.js.item.js" />
       </list>
     </recent_temporary>
   </component>
@@ -284,25 +374,27 @@
       <workItem from="1528689592950" duration="231000" />
       <workItem from="1528689893150" duration="32410000" />
       <workItem from="1528776528408" duration="457000" />
+      <workItem from="1528777725155" duration="16065000" />
+      <workItem from="1528798635041" duration="5499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81698000" />
+    <option name="totallyTimeSpent" value="103262000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-57" y="33" width="1940" height="1081" extended-state="0" />
+    <frame x="-147" y="4" width="1940" height="1070" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17983368" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33229166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39791667" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -310,7 +402,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32922733" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33539096" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33505154" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -341,37 +433,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/amazeui.widgets.helper.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/amazeui.ie8polyfill.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109136">
-          <caret line="2872" column="11" selection-start-line="2872" selection-start-column="11" selection-end-line="2872" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/i/app-icon72x72@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/i/startup-640x1096.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/i/favicon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd1.html" />
     <entry file="file://$PROJECT_DIR$/index/img/Logo.png" />
     <entry file="file://$PROJECT_DIR$/index/img/cat.jpg" />
     <entry file="file://$PROJECT_DIR$/index/index.html">
@@ -393,13 +458,6 @@
     <entry file="file://$PROJECT_DIR$/index/img/title.jpg" />
     <entry file="file://$PROJECT_DIR$/index/img/songshu.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/img/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -430,9 +488,6 @@
     <entry file="file://$PROJECT_DIR$/assets/js/amazeui.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue_route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99978">
@@ -444,13 +499,6 @@
     <entry file="file://$PROJECT_DIR$/img/bottom.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/img/mei.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -459,13 +507,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/img/mei1.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/img/rongshu1.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -480,27 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="10910" column="51" selection-start-line="10910" selection-start-column="51" selection-end-line="10910" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item/item.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="203" column="24" lean-forward="true" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item/item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -522,42 +542,163 @@
     <entry file="file://$PROJECT_DIR$/img/avator4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="149" column="5" lean-forward="true" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/item/img/rongshu1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/item/img/rongshu2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="75" column="59" selection-end-line="96" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item/img/mei1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1025713522/FileRecv/img/util(2).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/classify.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="41" column="44" lean-forward="true" selection-end-line="99" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item/item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="12" selection-end-line="159" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="255" column="6" selection-start-line="255" selection-start-column="6" selection-end-line="255" selection-end-column="6" />
+          <folding>
+            <element signature="e#15#6640#0" />
+            <element signature="e#10661#12139#0" />
+            <element signature="e#13198#14351#0" />
+            <element signature="e#15892#17249#0" />
+            <element signature="e#17255#18997#0" />
+            <element signature="e#15012#16436#0" />
+            <element signature="e#15394#16441#0" />
+            <element signature="e#14908#16436#0" />
+            <element signature="e#19055#19518#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item/item.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7714">
+          <caret line="203" column="24" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/classify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="456">
+          <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+        <state relative-caret-position="322">
+          <caret line="27" column="138" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="138" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2368#2375#1" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/classify.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="27" column="138" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="138" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2368#2375#1" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/item/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        <state relative-caret-position="152">
+          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>

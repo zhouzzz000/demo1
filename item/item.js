@@ -5,8 +5,16 @@ new Vue({
         id = parseInt(id);
         this.itemInfo = getItemByID(id);
         this.comments = getComments(1);
+        this.searchArr = getSearchArr();
+        if(id > 1000)
+        {
+            this.title2 = '生活习惯';
+        }
     },
     data:{
+        inputText:'',
+        searchArr: '',
+        title2:'生长习性',
         itemInfo:'',
         comments:'',
         newComment:'',
@@ -14,7 +22,6 @@ new Vue({
     },
     methods:{
         label1Click:function () {
-
         },
         clickForComment:function () {
             if(this.newComment!=='') {
@@ -38,6 +45,41 @@ new Vue({
                 Vue.set(this.comments,count,ttt);
                 setComments(1,this.comments);
             }
+        },
+    fun:function (index) {
+        self.location = '../item/index.html?itemID='+index;
+    },
+    clickForSearch:function () {
+        if (this.inputText !== null) {
+            var that = this;
+            var teInfo = this.searchArr.filter(function (item) {
+                return item.name.toLowerCase().indexOf(that.inputText.toLowerCase()) > -1;
+            })
+            if (teInfo.length === 1) {
+                if (teInfo[0].id === 0) {
+                    self.location = './index.html';
+                }
+                else
+                    this.fun(teInfo[0].id);
+            }
+        }
+     }
+    },
+    computed:{
+        sArr:function () {
+            var ss = this.inputText;
+            if (ss) {
+                return this.searchArr.filter(function(product) {
+                    return Object.keys(product).some(function(key) {
+                        return String(product[key]).toLowerCase().indexOf(ss) > -1
+                    })
+                })
+            }
+            else {
+                if(searchArr.length > 10) return searchArr.slice(0,10);
+                return this.searchArr;
+            }
         }
     }
 });
+

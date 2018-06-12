@@ -69,10 +69,21 @@ body{
 .label1{
     font-family: SimSuncss;
     display: flex;
-    margin-left: 74px;
+    margin-left: 60px;
     margin-top: auto;
     margin-bottom: auto;
     font-size: 25px;
+}
+
+.label1-but{
+    font-family: SimSuncss;
+    background: none;
+    border: none;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .search{
@@ -146,7 +157,7 @@ body{
     display: flex;
     width: 233px;
     height: 109px;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
 }
 
 .forth-page-text{

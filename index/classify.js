@@ -37,7 +37,7 @@ new Vue({
                     }
                     else
                         this.fun(teInfo[0].id);
-                    }
+                }
             }
         }
     },
@@ -60,50 +60,10 @@ new Vue({
 });
 
 
-new Vue({
-    el:'#mySlider',
-    data:{
-        silder_total:5,
-        silder:[
-            {
-                id:4,
-                url:'./img/liushu.jpg',
-                description:'柳树'
-            },
-            {
-                id:5,
-                url:'./img/mei.jpg',
-                description:'梅'
-            },
-            {
-                id:7,
-                url:'./img/songshu.jpg',
-                description:'松树'
-            },
-            {
-                id:6,
-                url:'./img/rongshu.jpg',
-                description:'榕树'
-            },
-            {
-                id:3,
-                url:'./img/zhuzi.jpg',
-                description:'竹子'
-            }
-        ]
-    },
-    methods:{
-        clickSilder:function (id) {
-            self.location = "../item/index.html?itemID="+id;
-        }
-    }
-});
 
 new Vue({
     el:'#forth',
     data:{
-        but1Style:'white',
-        but2Style:'',
         isSettle:true,
         hotestItem:'',
         newestItem:'',
@@ -111,27 +71,17 @@ new Vue({
     },
     mounted:function()
     {
-        var sss = getHotestItem();
-        var yyy = getNewestItem();
-        console.log(sss);
-        console.log(yyy);
-        this.hotestItem = yyy;
-        this.newestItem = sss;
-        this.showItem = this.hotestItem;
+        var  id = getQueryString('id');
+        id = parseInt(id);
+        if(id === 1)
+        {
+            this.showItem = getHotestItem();;
+        }else if (id === 2)
+        {
+            this.showItem = getNewestItem();
+        }
     },
     methods:{
-        forthButClick:function (cur) {
-            if(cur == 1)
-            {
-                this.but1Style = 'white';
-                this.but2Style = '';
-                this.showItem = this.hotestItem;
-            }else{
-                this.showItem = this.newestItem;
-                this.but2Style = 'white';
-                this.but1Style = '';
-            }
-        },
         clickForItem:function (id) {
             self.location = "../item/index.html?itemID="+id;
         }

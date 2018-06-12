@@ -26,7 +26,7 @@
 <div id="div-1" class="am-g">
     <div id="header" class="am-header">
         <div class="herder-text">
-            <img src="../img/Logo.png" style="margin-top: 0px; margin-right: 20px; width: 115px; height: 115px"/>
+            <a href="../index/index.html"><img src="../img/Logo.png" style="margin-top: 0px; margin-right: 20px; width: 115px; height: 115px"/></a>
             <header data-am-widget="header">
                 <span class="herder-title">猫萌萌病虫害防治</span>
             </header>
@@ -40,7 +40,14 @@
     </div>
     <div class="pages">
         <div class="second">
-            <label class="label1">分类</label>
+            <div class="am-dropdown" style="display: flex;margin-left: 65px" data-am-dropdown>
+                <button class="label1-but am-dropdown-toggle" data-am-dropdown-toggle>分类 <span class="am-icon-caret-down"></span></button>
+                <ul class="am-dropdown-content">
+                    <li><a href="../index/classify.html?id=1">树种</a></li>
+                    <li class="am-divider"></li>
+                    <li><a href="../index/classify.html?id=2">病虫害</a></li>
+                </ul>
+            </div>
             <label class="label1" data-am-modal="{target:'#doc-modal-1',closeViaDimmer:0,width:400,height:400}">赞助</label>
             <div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-1">
                 <div class="am-modal-dialog">
@@ -53,8 +60,13 @@
                 </div>
             </div>
             <div class="am-input-group search">
-                <input type="text" class="am-form-field" style="width: 320px;color: black;">
-                <button class="am-btn am-btn-default" type="button"><span class="am-icon-search"></span> </button>
+                <div  id="search" class="am-input-group" data-am-dropdown>
+                    <input v-model="inputText" type="text" class="am-dropdown-toggle am-form-field" data-am-dropdown-toggle style="height: 40px;width: 320px;color: black;">
+                    <ul class="am-dropdown-content" style="width: 320px;">
+                        <li @click="fun(item.id)" v-for="(item,index) in sArr"><a href="#">{{item.name}}</a></li>
+                    </ul>
+                    <button @click="clickForSearch" class="am-btn am-btn-default" type="button" style="height: 40px;"><span class="am-icon-search"></span> </button>
+                </div>
             </div>
         </div>
     </div>
@@ -72,7 +84,7 @@
                 </div>
                 <div class="third-desc-1">
                     <div class="third-desc-1-header">
-                        <div class="third-desc-1-header-line"></div>生长习性<span></span><div class="third-desc-1-header-line"></div>
+                        <div class="third-desc-1-header-line"></div>{{title2}}<span></span><div class="third-desc-1-header-line"></div>
                     </div>
                     <span class="third-desc">        {{itemInfo.growth}}</span>
                 </div>
